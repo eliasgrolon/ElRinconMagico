@@ -13,12 +13,12 @@
         {
             "descripcion":"Los libros pueden transportarnos a mundos increíbles, pero en el caso de Harry Potter, podemos llevar esos mundos en nuestros corazones.",
             "imagen":"https://www.omniscientes.com/wp-content/uploads/2022/06/Harry-Potter-y-la-camara-secreta-1024x683.jpg",
-            "url":"/libros/indexLibros.html"
+            "url":"libros/indexLibros.html"
         },
         {
             "descripcion":"¿Quieres saber mas sobre las peliculas?<br>Aquí tienes la exitosa serie de películas que capturan la magia y la emoción de esta fantastica historia.",
             "imagen":"https://pbs.twimg.com/media/EVXn5qhXQAIhYMI.jpg",
-            "url":"/peliculas/indexPelis.html"
+            "url":"peliculas/indexPelis.html"
         }
 
     ],
