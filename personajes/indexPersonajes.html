@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosPersonajes.css">
+    <title>Libreria virtual</title>
+</head>
+
+<body>
+    <header class="contenedor">
+        <label for=""><a href="../index.html">
+                <img src="https://i.postimg.cc/RZz90vR8/logo.png" alt="" class="logo">
+            </a></label>
+        <nav id="nav" class="item">
+            <div class="links">
+                <a class="itemLink" href="../libros/indexLibros.html">Libros</a>
+                <a class="itemLink" href="indexPelis.html">Peliculas</a>
+                <a class="itemLink" href="../index.html">Inicio</a>
+            </div>
+        </nav>
+        <button id="botonMenu" class="botonMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <section id="cabecera">
+        <div class="contenedorFiltrado">
+            <button id="Gryffindor" type="button" class="botonFiltrado" onclick=obtenerValor()><img id="Gryffindor" src="griffy.png" alt="Gryffindor" class="imgBoton"></button>
+            <button id="Slytherin" type="button" class="botonFiltrado" onclick=obtenerValor()><img id="Slytherin" src="s.png" alt="Slytherin" class="imgBoton"></button>
+            <button id="Ravenclaw" type="button" class="botonFiltrado" onclick=obtenerValor()><img id="Ravenclaw" src="r.png" alt="Ravenclaw" class="imgBoton"></button>
+            <button id="Hufflepuff" type="button" class="botonFiltrado" onclick=obtenerValor()><img id="Hufflepuff" src="h.png" alt="Hufflepuff" class="imgBoton"></button>
+            <button id="todas" type="button" class="botonFiltrado" onclick=obtenerValor()><img id="todas" src="Fotones.png" alt="Hufflepuff" class="imgBoton"></button>
+        </div>
+
+    </section>
+    <main>
+        <div id="coleccion-pelis">
+
+        </div>
+        <div class="botones">
+            <button id="anterior" class="but">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                </svg>
+                <div class="text">
+                    anterior
+                </div>
+            </button>
+            <button id="siguiente" class="but">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                </svg>
+                <div class="text">
+                    siguiente
+                </div>
+            </button>
+        </div>
+    </main>
+    <div class="pieDePag">
+        <footer>
+            <p>© Rolón Elías Gabriel | <a href="https://www.instagram.com/eriiasuu/">Instagram</a> | <a
+                    href="Eliasgrolon@gmail.com">Gmail</a></p>
+        </footer>
+    </div>
+    <script src="../consumirapi.js"></script>
+    <script src="personajes.js"></script>
+</body>
+
+</html>

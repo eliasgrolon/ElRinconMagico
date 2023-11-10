@@ -1,0 +1,552 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/DzysBct3/fondopelii.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+}
+
+/* TITULOS Y SUBTITULOS */
+#cabecera {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.titulo {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.subtitulo {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.texto1 {
+  padding: 40px;
+  text-align: center;
+  opacity: .8;
+}
+
+/* SECCIONES DEL BODY */
+#seccion1 {
+  text-align: center;
+  height: 100%;
+  font-size: 2em;
+  color: white;
+  background: linear-gradient(#80808031, #80808031);
+  border-top-right-radius: 3em;
+  border-top-left-radius: 3em;
+}
+
+/* ESTILOS DE INDEXLIBROS */
+#layoutPelis {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 110fr);
+}
+
+.foto {
+  width: 300px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border-radius: 1em;
+  margin-top: 9%;
+  transition: all 300ms;
+}
+
+.foto:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+}
+
+#layouts {
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 10px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 110fr);
+}
+
+.portada {
+  width: 20rem;
+  height: 30rem;
+  display: block;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  border-radius: 1em;
+}
+iframe{
+  width: 400px;
+  height: 230px;
+}
+.tituloLibro {
+  margin-top: 6%;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.textoLibro {
+  opacity: .8;
+  margin: 20px;
+  margin-left: 0;
+  text-align: left;
+}
+
+#boton2 {
+  color: white;
+  font-size: .8em;
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(rgba(35, 35, 35, 0.876), rgba(35, 35, 35, 0.876));
+  border-radius: 1em;
+}
+
+/* MENU ACORDEON */
+.menu {
+  display: block;
+  max-width: 500px;
+  width: auto;
+  margin-left: 0;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.acordeon {
+  text-align: left;
+}
+
+.acordeon label {
+  display: block;
+  padding: 20px;
+  background: #3a3a3a9c;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 2px;
+  transition: all 300ms ease;
+  border-radius: .7em;
+}
+
+.acordeon label:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.acordeon .contenido {
+  padding: 0px;
+  margin: 0px 20px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.boton:checked~.contenido {
+  max-height: 600px;
+  padding: 15px 0px;
+}
+
+.boton {
+  display: none;
+}
+
+/* FOOTER */
+.pieDePag {
+  text-align: center;
+  background-color: #2f4f4f;
+  padding: 1px;
+}
+
+/* RESPONSIVE WEB DESIGN */
+@media only screen and (max-width: 900px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/yxwjYCT9/hplibreria.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+  }
+
+  .logo img {
+    width: 160px;
+    height: 70px;
+    float: left;
+  }
+
+  #seccion1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background: linear-gradient(#80808031, #80808031);
+    border-top-right-radius: 3em;
+    border-top-left-radius: 3em;
+  }
+
+  /* SECCION DE LIBRERIA */
+  #layoutPelis {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 110fr);
+  }
+
+  .foto {
+    width: 300px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+  }
+
+  .portada {
+    width: 20rem;
+    height: 30rem;
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border-radius: 1em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/564x/09/0f/ae/090fae2b3bdd6d0fa9e7d138c7ac4906.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+  }
+
+  .logo img {
+    width: 160px;
+    height: 70px;
+    float: left;
+  }
+
+  #seccion1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background: linear-gradient(#80808031, #80808031);
+    border-top-right-radius: 3em;
+    border-top-left-radius: 3em;
+  }
+
+  #layoutPelis {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 110fr);
+  }
+
+  .foto {
+    width: 150px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border-radius: 1em;
+  }
+
+  #layouts {
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tituloLibro {
+    font-size: 1em;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .textoLibro {
+    opacity: .8;
+    margin: 20px;
+    font-size: .7em;
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .portada {
+    width: 15rem;
+    height: 25rem;
+    margin-top: 3%;
+    margin-left: 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0%;
+    border-radius: 1em;
+  }
+  iframe{
+    margin-top: 10%;
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/564x/09/0f/ae/090fae2b3bdd6d0fa9e7d138c7ac4906.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+  }
+
+  .logo img {
+    width: 160px;
+    height: 70px;
+    float: left;
+  }
+
+  #seccion1 {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    background: linear-gradient(#80808031, #80808031);
+    border-top-right-radius: 3em;
+    border-top-left-radius: 3em;
+  }
+
+  .titulo {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  .subtitulo {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  /* SECCION DE LIBRERIA */
+  #layoutPelis {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 110fr);
+  }
+
+  .foto {
+    width: 100px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+  }
+
+  #layouts {
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tituloLibro {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .textoLibro {
+    opacity: .8;
+    margin: 20px;
+    font-size: 1em;
+    margin-top: 4%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .portada {
+    width: 9rem;
+    height: 14rem;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 0%;
+    border-radius: 1em;
+  }
+  iframe{
+    margin-top: 10%;
+    width: 200px;
+    height: 110px;
+  }
+
+  #boton2 {
+    width: 80px;
+    height: 25px;
+    color: white;
+    font-size: .7em;
+    border-radius: 1em;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background: linear-gradient(rgba(35, 35, 35, 0.876), rgba(35, 35, 35, 0.876));
+  }
+}
+
+/* NAVBAR ESTILOS */
+.contenedor {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37));
+  padding: 0 0.4rem;
+}
+
+.logo {
+  width: 160px;
+  height: 60px;
+}
+
+.item {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  margin-left: -100%;
+  transition: all .2s linear;
+  z-index: 100;
+}
+
+.item.show {
+  margin-left: 0;
+  background: #3c3c3c;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.itemLink {
+  margin-top: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+  position: relative;
+}
+
+.itemLink::after {
+  position: absolute;
+  content: "";
+  background-color: #6c6c6c;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  transition: 0.3s ease all;
+}
+
+.itemLink:hover::after {
+  width: 100%;
+}
+
+.botonMenu {
+  z-index: 200;
+  width: 40px;
+  height: 40px;
+  border: none;
+  display: flex;
+  background: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.botonMenu span {
+  width: 37px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 3px;
+  transform-origin: 4px 0px;
+  transition: all .2s linear;
+}
+
+.botonMenu.close span {
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, 0px);
+  background: #ffffff;
+}
+
+.botonMenu.close span:nth-child(2) {
+  transform: rotate(-45deg) translate(-8px, 5px);
+}
+
+.botonMenu.close span:nth-child(3) {
+  display: none;
+}
+
+@media screen and (min-width:600px) {
+  .logo {
+    width: 190px;
+    height: 70px;
+  }
+
+  .botonMenu {
+    display: none;
+  }
+
+  .item {
+    position: sticky;
+    margin-left: 0;
+    flex-basis: 70%;
+    height: 100%;
+  }
+
+  .links {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .itemLink {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 2rem;
+  }
+}

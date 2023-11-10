@@ -1,0 +1,196 @@
+{
+    "titulos":[
+        {
+            "titulo":"¡Bienvenidos a este mundo mágico!",
+            "subtitulo":"Donde los hechizos cobran vida y la aventura nunca termina",
+            "titulo2":"¡Descubre la mágia detras de cada página!",
+            "subtitulo2":"Tu portal a este mundo mágico no tiene límites.",
+            "titulo3":"¿Listo para regresar a Hogwarts?",
+            "subtitulo3":"Revive la magia con las películas de Harry Potter."
+        }
+    ],
+    "layouts":[
+        {
+            "descripcion":"Los libros pueden transportarnos a mundos increíbles, pero en el caso de Harry Potter, podemos llevar esos mundos en nuestros corazones.",
+            "imagen":"https://www.omniscientes.com/wp-content/uploads/2022/06/Harry-Potter-y-la-camara-secreta-1024x683.jpg",
+            "url":"/libros/indexLibros.html"
+        },
+        {
+            "descripcion":"¿Quieres saber mas sobre las peliculas?<br>Aquí tienes la exitosa serie de películas que capturan la magia y la emoción de esta fantastica historia.",
+            "imagen":"https://pbs.twimg.com/media/EVXn5qhXQAIhYMI.jpg",
+            "url":"/peliculas/indexPelis.html"
+        }
+
+    ],
+    "libros":[
+        {
+            "imagen":"https://i.postimg.cc/76jYKKVX/hpp12.jpg",
+            "libro": "Harry Potter y la piedra filosofal",
+            "url":"#",
+            "fecha": "26 de junio de 1997",
+            "autor": "J. K. Rowling",
+            "sinop":"Sinopsis",
+            "descripcion": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee."
+        },
+        {
+            "imagen":"https://i.postimg.cc/RVKqDx2t/hpp2.jpg",
+            "libro": "Harry Potter y la cámara secreta",
+            "url":"#",
+            "fecha": "2 de julio de 1998",
+            "autor": "J. K. Rowling",
+            "sinop":"Sinopsis",
+            "descripcion": "Harry Potter y los estudiantes de segundo año investigan una malévola amenaza para sus compañeros de clases de Hogwarts, una amenazante bestia que se esconde dentro del castillo."
+        },
+        {
+            "imagen":"https://i.postimg.cc/SQXncMrD/hpp3.jpg",
+            "libro": "Harry Potter y el prisionero de Azkaban",
+            "url":"#",
+            "fecha": "8 de julio de 1999",
+            "autor": "J. K. Rowling",
+            "sinop":"Sinopsis",
+            "descripcion": "El tercer año de estudios de Harry en Hogwarts se ve amenazado por la fuga de Sirius Black de la prisión de Azkaban. Al parecer, se trata de un peligroso mago que fue cómplice de Lord Voldemort y que intentará vengarse de Harry Potter."
+        },
+        {
+            "imagen":"https://i.postimg.cc/Jnsz3fbG/hpp4.jpg",
+            "libro": "Harry Potter y el cáliz de fuego",
+            "url":"#",
+            "fecha": "8 de julio de 2000",
+            "autor": "J. K. Rowling",
+            "sinop":"Sinopsis",
+            "descripcion": "Hogwarts se prepara para el Torneo de los Tres Magos, en el que competirán tres escuelas de hechicería. Para sorpresa de todos, Harry Potter es elegido para participar en la competencia, en la que deberá luchar contra dragones, internarse en el agua y enfrentarse a sus mayores miedos."
+        },
+        {
+            "imagen":"https://i.postimg.cc/43L39fHD/hpp5.jpg",
+            "libro": "Harry Potter y la orden del Fénix",
+            "url":"#",
+            "fecha": "21 de junio de 2003",
+            "autor": "J. K. Rowling",
+            "sinop":"Sinopsis",
+            "descripcion": "En su quinto año en Hogwarts, Harry descubre que muchos integrantes de la comunidad de magos no conocen la verdad acerca de su encuentro con Lord Voldemort. Cornelius Fudge, ministro de magia, designa a Dolores Umbridge como maestra de defensa contra de las artes oscuras porque cree que el profesor Dumbledore planea apoderarse de su trabajo. Pero sus enseñanzas son inadecuadas, por lo que Harry prepara a los estudiantes para defender la escuela en contra del mal."
+        },
+        {
+            "imagen":"https://i.postimg.cc/Hn5WRbvm/hpp6.jpg",
+            "libro": "Harry Potter y el misterio del príncipe",
+            "url":"#",
+            "fecha": "16 de julio de 2005",
+            "autor": "J. K. Rowling",
+            "sinop":"Sinopsis",
+            "descripcion": "Harry descubre un poderoso libro y, mientras trata de descubrir sus orígenes, colabora con Dumbledore en la búsqueda de una serie de objetos mágicos que ayudarán en la destrucción de Lord Voldemort."
+        },
+        {
+            "imagen":"https://i.postimg.cc/kMt52dJH/hpp7.jpg",
+            "libro": "Harry Potter y las reliquias de la muerte",
+            "url":"#",
+            "fecha": "21 de julio de 2007",
+            "autor": "J. K. Rowling",
+            "sinop":"Sinopsis",
+            "descripcion": "Harry, Ron y Hermione se van a una peligrosa misión para localizar y destruir el secreto de la inmortalidad y destrucción de Voldemort - los Horrocruces. Solos, sin la guía de sus profesores o la protección del Profesor Dumbledore, los tres amigos deben apoyarse el uno en el otro más que nunca. Pero hay Fuerzas Oscuras en medio que amenazan con separarlos. Harry Potter se está acercando cada vez más a la tarea para la que se ha preparado desde el primer día que pisó Hogwarts: la última batalla con Voldemort."
+        },
+        {
+            "imagen":"https://i.postimg.cc/C1zGL1KB/Animales-Fant-sticos-Y-D-nde-Encontrarlos.jpg",
+            "libro": "Animales fantasticos y donde encontrarlos",
+            "url":"#",
+            "fecha": "30 de marzo de 2001",
+            "autor": "J. K. Rowling",
+            "sinop":"Sinopsis",
+            "descripcion": "Animales fantásticos y dónde encontrarlos es un libro que trata sobre la magizoología y la descripción de las criaturas mágicas, siendo uno de los libros más aclamados de su área. Fue escrito por el célebre magizoologista Newt Scamander, y es un libro de texto estándar usado en el Colegio Hogwarts de Magia y Hechicería desde su primera edición, lanzada en 1927"
+        }
+    ],
+    "peliculas":[
+        {
+            "imagen":"https://i.postimg.cc/Z0ttdgct/harry1.png",
+            "titulo":"Harry Potter y la piedra filosofal",
+            "trailer":"https://www.youtube.com/embed/ZgrCZVjPg9g?si=Vqo9ueDyJ3SQ4tfn",
+            "fecha":"3 de noviembre de 2001",
+            "director":"Chris Columbus",
+            "guionista":"Steve Kloves",
+            "productor":"Cristóbal Colón, David Heyman y Marcos Radcliffe",
+            "sinop":"Sinopsis",
+            "descripcion":"El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee."
+            
+        },
+        {
+            "imagen":"https://i.postimg.cc/8CP5cJcd/harry2.png",
+            "titulo":"Harry Potter y la camara secreta",
+            "trailer":"https://www.youtube.com/embed/MziLH3uow6E?si=kgDbsN_yYHDwvxjR",
+            "fecha":"15 de noviembre de 2002",
+            "director":"Chris Columbus",
+            "guionista":"Steve Kloves",
+            "productor":"Cristóbal Colón, David Heyman y Marcos Radcliffe",
+            "sinop":"Sinopsis",
+            "descripcion":"Terminado el verano, Harry no ve la hora de abandonar la casa de sus odiosos tíos. Inesperadamente se presenta en su dormitorio Dobby, un elfo doméstico, que le anuncia que correrá un gran peligro si vuelve a Hogwarts."
+            
+        },
+        {
+            "imagen":"https://i.postimg.cc/XJqbS9Jh/harry3.jpg",
+            "titulo":"Harry Potter y el prisionero de Azkaban",
+            "trailer":"https://www.youtube.com/embed/cUtaBkW1MKo?si=sG-fCqF6S34eAhF_",
+            "fecha":"4 de junio de 2004",
+            "director":"Alfonso Cuarón",
+            "guionista":"Steve Kloves",
+            "productor":"Cristóbal Colón, David Heyman y Marcos Radcliffe",
+            "sinop":"Sinopsis",
+            "descripcion":"El tercer año de estudios de Harry en Hogwarts se ve amenazado por la fuga de Sirius Black de la prisión de Azkaban. Al parecer, se trata de un peligroso mago que fue cómplice de Lord Voldemort y que intentará vengarse de Harry Potter."
+        },
+        {
+            "imagen":"https://i.postimg.cc/Vs3dgkZ1/harry4.png",
+            "titulo":"Harry Potter y el caliz de fuego",
+            "trailer":"https://www.youtube.com/embed/wX5dWfUKGPg?si=Ucfwpr0Vj9Cpbqwp",
+            "fecha":"15 de noviembre de 2005",
+            "director":"Mike Newell",
+            "guionista":"Steve Kloves",
+            "productor":"David Heyman",
+            "sinop":"Sinopsis",
+            "descripcion":"Hogwarts se prepara para el Torneo de los Tres Magos, en el que competirán tres escuelas de hechicería. Para sorpresa de todos, Harry Potter es elegido para participar en la competencia, en la que deberá luchar contra dragones, internarse en el agua y enfrentarse a sus mayores miedos."
+            
+        },
+        {
+            "imagen":"https://i.postimg.cc/zGkvqSzX/harry5.png",
+            "titulo":"Harry Potter y la orden del fenix",
+            "trailer":"https://www.youtube.com/embed/jdEulcjAvQI?si=aEb-g39vZWloMn_m",
+            "fecha":"10 de julio de 2007",
+            "director":"David Yates",
+            "guionista":"Michael Goldenberg",
+            "productor":"David Heyman y David Barron",
+            "sinop":"Sinopsis",
+            "descripcion":"En su quinto año en Hogwarts, Harry descubre que muchos integrantes de la comunidad de magos no conocen la verdad acerca de su encuentro con Lord Voldemort. Cornelius Fudge, ministro de magia, designa a Dolores Umbridge como maestra de defensa contra de las artes oscuras porque cree que el profesor Dumbledore planea apoderarse de su trabajo. Pero sus enseñanzas son inadecuadas, por lo que Harry prepara a los estudiantes para defender la escuela en contra del mal"
+            
+        },
+        {
+            "imagen":"https://i.postimg.cc/W1VtRfPH/harry6.png",
+            "titulo":"Harry Potter y el misterio del principe",
+            "trailer":"https://www.youtube.com/embed/CHiGk9bEht8?si=74vHYKO-tpHqdzGE",
+            "fecha":"6 de julio de 2009",
+            "director":"David Yates",
+            "guionista":"Steve Kloves",
+            "productor":"David Heyman y David Barron",
+            "sinop":"Sinopsis",
+            "descripcion":"Harry descubre un poderoso libro y, mientras trata de descubrir sus orígenes, colabora con Dumbledore en la búsqueda de una serie de objetos mágicos que ayudarán en la destrucción de Lord Voldemort."
+            
+        },
+        {
+            "imagen":"https://i.postimg.cc/mr8s5mbC/harry7-1.jpg",
+            "titulo":"Harry Potter y las reliquias de la muerte (Parte 1)",
+            "trailer":"https://www.youtube.com/embed/GdNvFDzSNHQ?si=00FAN5t_zsozXxst",
+            "fecha":"10 de noviembre de 2010",
+            "director":"David Yates",
+            "guionista":"Michael Goldenberg",
+            "productor":"David Heyman, David Barron y J. K. Rowling",
+            "sinop":"Sinopsis",
+            "descripcion":"Harry, Ron y Hermione se marchan de Hogwarts para iniciar su misión más importante: tienen que destruir los horrocruxes, el secreto del poder y la inmortalidad de Voldemort, en los que el temido mago oscuro guarda los fragmentos de su alma."
+            
+        },
+        {
+            "imagen":"https://i.postimg.cc/Bb1fts2B/harry7-2.png",
+            "titulo":"Harry Potter y las reliquias de la muerte (Parte 2)",
+            "trailer":"https://www.youtube.com/embed/7Ay2BjeZvrM?si=ZEgtGRH_sW-2zR_R",
+            "fecha":"6 de julio de 2011",
+            "director":"David Yates",
+            "guionista":"Michael Goldenberg",
+            "productor":"David Heyman y David Barron",
+            "sinop":"Sinopsis",
+            "descripcion":"Un enfrentamiento entre el bien y el mal espera cuando el joven Harry, Ron y Hermione se preparan para una última batalla en contra de Lord Voldemort. Harry se ha convertido en un joven fuerte que tiene la misión de librar al mundo del mal."
+            
+        }
+    ]
+}
